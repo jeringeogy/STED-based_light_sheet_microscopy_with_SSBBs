@@ -1,9 +1,9 @@
 function [kr1, kr2, R1, R2, z] = opt_data(m,opt,N)
 
-% These are the different wave-vector ratios used for excitation beam 
+% These are the different wave-vector ratios used for the excitation beam 
 Ex = [0.6, 0.65, 0.7, 0.75 1]; 
 
-% These are the different wave-vector ratios used for depletion beam 
+% These are the different wave-vector ratios used for the depletion beam 
 Dp = [0.7, 0.75, 0.8, 0.85, 1];
 
     if opt == 1 % excitation case
