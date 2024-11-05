@@ -4,7 +4,7 @@ function phi = phase_fun(k,kr,n,Rsamp)
     
     theta = atan(kr/kz); % cone angle of the beam
     
-    alpha = atan(sin(theta) / (n - cos(theta))); %opening angle of axicon
+    alpha = atan(sin(theta) / (n - cos(theta))); % opening angle of the axicon
     
     phi = -1 * k * Rsamp * sin(theta); % axicon phase function
     
