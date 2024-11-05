@@ -4,7 +4,7 @@ function F1 = BLAS(F, lambda, z, FX, FY, L)
 
     ANG=exp(-1i*pi*lambda*z*(FX.^2+FY.^2)); % transfer function
     % The following command implements the band-limiting condition
-    % When evaluating the bleaching value, the band-limiting conditon is avoided to ensure that the total power remain conserved
+    % When evaluating the bleaching value, the band-limiting condition is avoided to ensure that the total power remains conserved
     ANG = ANG .* (sqrt(FX.^2 + FY.^2) <= u_lim);
     ANG=fftshift(ANG);
     
