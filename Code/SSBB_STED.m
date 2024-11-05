@@ -11,9 +11,9 @@ k1 = 2*pi/lambda1; % Propagation constant 1
 k2 = 2*pi/lambda2; % Propagation constant 2
 R1 = zeros(N,N);
 R2 = zeros(N,N);
-z0 = 2.4 * 10^-6; % Rayleigh distance of a Gaussian beam with same core radius
+z0 = 2.4 * 10^-6; % Rayleigh distance of a Gaussian beam with the same core radius
 p_w = 250 * 10^-12; % pulse width of STED beam
-p_p = 12.5 * 10^-9; % pulse perion of STED beam
+p_p = 12.5 * 10^-9; % pulse period of STED beam
 nl = 1.4; % Non-linearity rate of atto647N dye
 
 %%%% SAMPLING SPACE %%%%
